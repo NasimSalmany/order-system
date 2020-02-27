@@ -1,4 +1,4 @@
-FROM maven:3.5.2-jdk-8-alpine AS MAVEN_BUILD
+FROM maven:4.0.0-jdk-8-alpine AS MAVEN_BUILD
 MAINTAINER Nasim Salmany
 COPY pom.xml /build/
 COPY src /build/src/
